@@ -12,7 +12,7 @@ We'd love to hear from you! Whether you have a question, feedback, or just want 
 
 !!! info "Ways to Connect"
     - **Email**: contact@vigilantmeme.com
-    - **GitHub**: [github.com/outbackops/vigilant-meme](https://github.com/outbackops/vigilant-meme)
+    - **GitHub**: [github.com/outbackops](https://github.com/outbackops)
     - **Location**: Available worldwide (remote-first)
 
 ## Send Us a Message
@@ -69,9 +69,9 @@ We'd love to hear from you! Whether you have a question, feedback, or just want 
 
 Stay connected through our social channels:
 
-- 🐙 [GitHub](https://github.com/outbackops/vigilant-meme) - Follow our development
-- 💼 [LinkedIn](https://linkedin.com) - Professional updates
-- 🐦 [Twitter](https://twitter.com) - Quick updates and news
+- 🐙 [GitHub](https://github.com/outbackops/) - Follow our development
+- 💼 [LinkedIn](https://linkedin.com/rahuljangda) - Professional updates
+- 🐦 [Twitter](https://twitter.com/rahuljangda) - Quick updates and news
 
 ---
 
