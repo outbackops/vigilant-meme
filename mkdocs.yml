@@ -1,0 +1,98 @@
+site_name: Vigilant Meme
+site_description: A responsive and accessible demo website
+site_author: Vigilant Meme Team
+site_url: https://outbackops.github.io/vigilant-meme/
+
+# Repository
+repo_name: outbackops/vigilant-meme
+repo_url: https://github.com/outbackops/vigilant-meme
+
+# Theme Configuration
+theme:
+  name: material
+  custom_dir: overrides
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+    - header.autohide
+  language: en
+  palette:
+    # Light mode with gradient theme
+    - scheme: default
+      primary: indigo
+      accent: purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode with gradient theme
+    - scheme: slate
+      primary: deep purple
+      accent: pink
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    logo: material/library
+    repo: fontawesome/brands/github
+
+# Navigation
+nav:
+  - Home: index.md
+  - Blog:
+    - blog/index.md
+    - Posts:
+      - Welcome Post: blog/posts/welcome.md
+      - Getting Started: blog/posts/getting-started.md
+  - Contact: contact.md
+
+# Extensions
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
+
+# Extra CSS and JS
+extra_css:
+  - stylesheets/extra.css
+
+# Extra configuration
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/outbackops/vigilant-meme
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com
+
+# Plugins
+plugins:
+  - search
+
+# Copyright
+copyright: Copyright &copy; 2026 Vigilant Meme Team
