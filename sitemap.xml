@@ -2,22 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://outbackops.github.io/vigilant-meme/</loc>
-         <lastmod>2026-02-02</lastmod>
+         <lastmod>2026-02-03</lastmod>
     </url>
     <url>
          <loc>https://outbackops.github.io/vigilant-meme/contact/</loc>
-         <lastmod>2026-02-02</lastmod>
+         <lastmod>2026-02-03</lastmod>
     </url>
     <url>
          <loc>https://outbackops.github.io/vigilant-meme/blog/</loc>
-         <lastmod>2026-02-02</lastmod>
+         <lastmod>2026-02-03</lastmod>
+    </url>
+    <url>
+         <loc>https://outbackops.github.io/vigilant-meme/blog/posts/accessibility-with-ai/</loc>
+         <lastmod>2026-02-03</lastmod>
+    </url>
+    <url>
+         <loc>https://outbackops.github.io/vigilant-meme/blog/posts/ai-agents-in-production/</loc>
+         <lastmod>2026-02-03</lastmod>
+    </url>
+    <url>
+         <loc>https://outbackops.github.io/vigilant-meme/blog/posts/ai-for-security-ops/</loc>
+         <lastmod>2026-02-03</lastmod>
+    </url>
+    <url>
+         <loc>https://outbackops.github.io/vigilant-meme/blog/posts/cost-optimization-llms/</loc>
+         <lastmod>2026-02-03</lastmod>
+    </url>
+    <url>
+         <loc>https://outbackops.github.io/vigilant-meme/blog/posts/edge-ai-privacy/</loc>
+         <lastmod>2026-02-03</lastmod>
     </url>
     <url>
          <loc>https://outbackops.github.io/vigilant-meme/blog/posts/getting-started/</loc>
-         <lastmod>2026-02-02</lastmod>
+         <lastmod>2026-02-03</lastmod>
+    </url>
+    <url>
+         <loc>https://outbackops.github.io/vigilant-meme/blog/posts/guardrails-and-safety/</loc>
+         <lastmod>2026-02-03</lastmod>
+    </url>
+    <url>
+         <loc>https://outbackops.github.io/vigilant-meme/blog/posts/long-context-strategies/</loc>
+         <lastmod>2026-02-03</lastmod>
+    </url>
+    <url>
+         <loc>https://outbackops.github.io/vigilant-meme/blog/posts/multimodal-search-2026/</loc>
+         <lastmod>2026-02-03</lastmod>
+    </url>
+    <url>
+         <loc>https://outbackops.github.io/vigilant-meme/blog/posts/rag-quality-playbook/</loc>
+         <lastmod>2026-02-03</lastmod>
+    </url>
+    <url>
+         <loc>https://outbackops.github.io/vigilant-meme/blog/posts/synthetic-data-2026/</loc>
+         <lastmod>2026-02-03</lastmod>
     </url>
     <url>
          <loc>https://outbackops.github.io/vigilant-meme/blog/posts/welcome/</loc>
-         <lastmod>2026-02-02</lastmod>
+         <lastmod>2026-02-03</lastmod>
     </url>
 </urlset>
