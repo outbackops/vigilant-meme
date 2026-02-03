@@ -10,7 +10,71 @@ Welcome to our blog! Here you'll find articles, tutorials, and insights about AI
 
 ---
 
-## 🤖 AI Trends Series
+## � AI Tools Encyclopedia
+
+*A comprehensive guide to every AI tool, framework, and platform—organized for easy navigation.*
+
+### [AI Tools Landscape 2026](posts/ai-tools-landscape-2026.md) ⭐ START HERE
+
+**Posted: February 3, 2026** | **ELI5 included** ✅
+
+Your complete navigation guide to the AI ecosystem. Decision trees, quick comparisons, and the minimal viable stack for any project.
+
+[Read more →](posts/ai-tools-landscape-2026.md)
+
+---
+
+### [LLM Providers & APIs](posts/ai-tools-llm-providers.md)
+
+**Posted: February 3, 2026** | **ELI5 included** ✅
+
+Every major LLM provider compared: OpenAI, Anthropic, Google, Mistral, Cohere, and open-source options. Pricing, capabilities, and when to use each.
+
+[Read more →](posts/ai-tools-llm-providers.md)
+
+---
+
+### [Frameworks & Orchestration](posts/ai-tools-frameworks.md)
+
+**Posted: February 3, 2026** | **ELI5 included** ✅
+
+LangChain, LlamaIndex, Semantic Kernel, Haystack, and more. Learn which framework fits your project and how to combine them effectively.
+
+[Read more →](posts/ai-tools-frameworks.md)
+
+---
+
+### [Vector Databases & Retrieval](posts/ai-tools-vector-databases.md)
+
+**Posted: February 3, 2026** | **ELI5 included** ✅
+
+Pinecone, Weaviate, Chroma, Qdrant, Milvus, pgvector—complete comparison with setup guides and scaling strategies.
+
+[Read more →](posts/ai-tools-vector-databases.md)
+
+---
+
+### [MLOps & Infrastructure](posts/ai-tools-mlops.md)
+
+**Posted: February 3, 2026** | **ELI5 included** ✅
+
+Training, fine-tuning, deployment, and scaling. Hugging Face, vLLM, Modal, Replicate, and GPU cloud providers compared.
+
+[Read more →](posts/ai-tools-mlops.md)
+
+---
+
+### [Safety & Evaluation](posts/ai-tools-safety-eval.md)
+
+**Posted: February 3, 2026** | **ELI5 included** ✅
+
+Test, monitor, and secure your AI. LangSmith, Langfuse, RAGAS, Guardrails AI, and building evaluation pipelines.
+
+[Read more →](posts/ai-tools-safety-eval.md)
+
+---
+
+## �🤖 AI Trends Series
 
 ### [AI Agents in Production](posts/ai-agents-in-production.md)
 
@@ -136,9 +200,9 @@ A comprehensive guide to getting started with our platform. Learn the basics and
 
 ## Categories
 
-- **Artificial Intelligence**: Agents, RAG, multimodal, cost optimization
-- **Security**: AI-powered threat detection and response
-- **Privacy**: Edge AI, synthetic data, compliance
+- **AI Tools Encyclopedia**: Complete guide to every tool, framework, and platform
+- **AI Trends**: Agents, RAG, multimodal, cost optimization, security
+- **Privacy & Safety**: Edge AI, synthetic data, guardrails, compliance
 - **Accessibility**: Inclusive design with AI assistance
 - **Web Development**: Tips, tricks, and best practices
 - **Design**: UI/UX insights and inspiration
