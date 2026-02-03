@@ -25,10 +25,15 @@ A modern, responsive, and accessible website built with MkDocs and Material them
 - Python 3.8 or higher
 - pip
 
+> **Windows Users**: Use `py -3` instead of `python` if `python` is not recognized.
+
 ### Installation
 
 ```bash
-# Install dependencies
+# Windows (recommended)
+py -3 -m pip install -r requirements.txt
+
+# macOS/Linux
 pip install -r requirements.txt
 
 # Or install manually
@@ -38,7 +43,10 @@ pip install mkdocs mkdocs-material mkdocs-blog-plugin
 ### Local Development
 
 ```bash
-# Serve the site locally with live reload
+# Windows
+py -3 -m mkdocs serve
+
+# macOS/Linux
 mkdocs serve
 
 # Access at http://127.0.0.1:8000
@@ -47,7 +55,10 @@ mkdocs serve
 ### Build
 
 ```bash
-# Build the static site
+# Windows
+py -3 -m mkdocs build
+
+# macOS/Linux
 mkdocs build
 
 # Output will be in the ./site directory
@@ -55,9 +66,37 @@ mkdocs build
 
 ## Deployment
 
-### GitHub Pages
+### GitHub Pages (Recommended)
 
-The site is configured to automatically deploy to GitHub Pages when changes are pushed to the `main` branch. The workflow is defined in `.github/workflows/deploy.yml`.
+**Option 1: One-command deploy**
+
+This builds the site and pushes to the `gh-pages` branch automatically:
+
+```bash
+# Windows
+py -3 -m mkdocs gh-deploy --force
+
+# macOS/Linux
+mkdocs gh-deploy --force
+```
+
+Then enable GitHub Pages in your repo:
+1. Go to **Settings** → **Pages**
+2. Source: **Deploy from a branch**
+3. Branch: `gh-pages` / `/ (root)`
+4. Click **Save**
+
+Your site will be live at `https://<username>.github.io/<repo-name>/`
+
+**Option 2: GitHub Actions (automatic)**
+
+Push to `main` branch and the workflow in `.github/workflows/deploy.yml` will build and deploy automatically.
+
+```bash
+git add .
+git commit -m "Your commit message"
+git push origin main
+```
 
 ### Azure Static Web Apps
 
