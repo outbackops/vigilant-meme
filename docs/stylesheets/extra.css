@@ -1,7 +1,20 @@
-/* Custom gradient styles and hero images */
+/* =============================================================================
+   Custom gradient styles and hero images
+   
+   CSS Variable Reference:
+   - --md-primary-fg-color: Primary foreground/text color
+   - --md-primary-bg-color: Primary background color
+   - --gradient-primary: Purple to indigo (headers, primary actions)
+   - --gradient-accent: Pink to rose (highlights, secondary elements)
+   - --gradient-info: Blue to cyan (informational sections)
+   ============================================================================= */
+
 :root {
+  /* Primary colors */
   --md-primary-fg-color: #667eea;
   --md-primary-bg-color: #f8f9fa;
+  
+  /* Gradient definitions - Light mode */
   --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   --gradient-accent: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
   --gradient-info: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
