@@ -44,6 +44,8 @@
 - [ ] T005 [P] Verify light mode renders correctly on Home, Blog, and Contact pages
 - [ ] T006 [P] Verify dark mode renders correctly on Home, Blog, and Contact pages
 - [ ] T007 [P] Verify responsive layout at mobile viewport (<768px) on all pages
+- [ ] T007b [P] Verify responsive layout at tablet viewport (768px-1024px) on all pages
+- [ ] T007c [P] Verify touch targets are at least 44x44px on mobile (buttons, links, nav items)
 - [ ] T008 Verify keyboard navigation works (Tab through all interactive elements)
 
 **Checkpoint**: Foundation validated - user story implementation can now begin
@@ -67,6 +69,7 @@
 - [ ] T015 [US1] Verify admonitions display correctly in light mode
 - [ ] T016 [US1] Verify admonitions display correctly in dark mode
 - [ ] T017 [US1] Verify hero image is responsive and has alt text
+- [ ] T017b [US1] Verify all images in sample post have descriptive alt text (not just filenames)
 
 **Checkpoint**: User Story 1 complete - blog post creation workflow validated
 
@@ -128,6 +131,7 @@
 - [ ] T041 Verify all internal links resolve correctly via `mkdocs build --strict`
 - [ ] T042 Verify site loads in under 3 seconds (browser DevTools Network tab, 3G throttle)
 - [ ] T043 Run full validation using quickstart.md checklist
+- [ ] T043b Test screen reader compatibility on Home page (NVDA, VoiceOver, or browser reader mode)
 - [ ] T044 Clean up any test artifacts (sample-post.md if not needed for demo)
 
 ---
@@ -203,14 +207,14 @@ T038 (Home audit) | T039 (Blog audit) | T040 (Contact audit)
 
 | Metric | Count |
 |--------|-------|
-| Total Tasks | 44 |
+| Total Tasks | 48 |
 | Phase 1 (Setup) | 3 |
-| Phase 2 (Foundational) | 5 |
-| User Story 1 (P1) | 9 |
+| Phase 2 (Foundational) | 7 |
+| User Story 1 (P1) | 10 |
 | User Story 2 (P2) | 11 |
 | User Story 3 (P3) | 9 |
-| Phase 6 (Polish) | 7 |
-| Parallel Opportunities | 12 tasks marked [P] |
+| Phase 6 (Polish) | 8 |
+| Parallel Opportunities | 14 tasks marked [P] |
 
 ### Format Validation ✅
 
