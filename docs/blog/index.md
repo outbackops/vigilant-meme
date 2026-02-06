@@ -10,7 +10,17 @@ Welcome to our blog! Here you'll find articles, tutorials, and insights about AI
 
 ---
 
-## � AI Tools Encyclopedia
+### [Sample Blog Post: Specification Standards Demo](posts/sample-post.md) 🆕
+
+**Posted: February 6, 2026**
+
+A demonstration of established patterns for creating blog content in Vigilant Meme, following all specification standards.
+
+[Read more →](posts/sample-post.md)
+
+---
+
+## 📚 AI Tools Encyclopedia
 
 *A comprehensive guide to every AI tool, framework, and platform—organized for easy navigation.*
 
